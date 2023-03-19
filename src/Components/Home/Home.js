@@ -27,7 +27,12 @@ const Home = (props) => {
             <h1 className="todos-heading">Tasks to complete</h1>
           </div>
 
-          <h5 className=" col-12 todo-items-heading">Filter </h5>
+          <h5 className=" col-12 todo-items-heading">
+            Filter :
+            <span className="filter-text">
+              ( tasks to complete before date)
+            </span>{" "}
+          </h5>
 
           <div className="col-12">
             <input
