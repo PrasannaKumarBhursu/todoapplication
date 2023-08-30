@@ -5,7 +5,9 @@ const Navbar = () => (
     style={{ backgroundColor: "#408bd6" }}
     className="  navbar sticky-top navbar-expand-lg  navbar-dark "
   >
-    <p className="navbar-brand"></p>
+    {/* <p className="navbar-brand">Todos</p>
+     */}
+      <a class="navbar-brand" href="/">Todos</a>
     <button
       className="navbar-toggler"
       type="button"
